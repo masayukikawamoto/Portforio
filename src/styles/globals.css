@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -24,3 +25,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .knockout-text {
+  background: url("/images/GSFC_20171208_Archive_e000282~orig.jpg") no-repeat
+    center center;
+  background-size: cover;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+} */
