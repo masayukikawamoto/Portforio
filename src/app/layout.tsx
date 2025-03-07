@@ -32,11 +32,11 @@ export default function RootLayout({
           <Navigation />
           <main className="">{children}</main>
 
-          {/* <footer className="flex justify-center items-center text-center h-12">
+          <footer className="flex justify-center items-center text-center h-12">
             <div className="text-xs sm:text-sm h-12 text-gray-800">
               &copy; 2025 MASA
             </div>
-          </footer> */}
+          </footer>
         </div>
       </body>
     </html>
