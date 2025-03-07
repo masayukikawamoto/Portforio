@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "../../styles/globals.css";
 
 export default function Navigation() {
@@ -6,15 +7,15 @@ export default function Navigation() {
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-4">
         <div className="text-2xl font-bold text-gray-900"></div>
         <div className="space-x-6">
-          <a href="#about" className="hover:text-blue-600">
+          {/* <a href="#about" className="hover:text-blue-600">
             About
           </a>
-          <a href="#projects" className="hover:text-blue-600">
+          <Link href="https://wordifyapp.xyz" className="hover:text-blue-600">
             Projects
-          </a>
+          </Link>
           <a href="#contact" className="hover:text-blue-600">
             Contact
-          </a>
+          </a> */}
         </div>
       </nav>
     </header>

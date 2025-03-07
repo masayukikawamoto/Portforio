@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "../styles/globals.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,16 +16,12 @@ export default function Home() {
       <div className="absolute inset-0 w-[90%] max-w-3xl">
         <div className="font-thin text-6xl">MASA</div>
         <div className="font-black text-6xl">PORTFOLIO</div>
-        <div className="font-thin text-4xl">profile</div>
-        <div className="font-thin text-4xl">app</div>
-        <div className="font-thin text-4xl">skill set</div>
+        {/* <div className="font-thin text-4xl">profile</div> */}
+        <div className="font-thin text-4xl">
+          <Link href="https://wordifyapp.xyz">app</Link>
+        </div>
+        {/* <div className="font-thin text-4xl">skill set</div> */}
       </div>
-
-      <footer className="py-4 bg-gray-100 text-center">
-        <p className="text-gray-600">
-          &copy; {new Date().getFullYear()} John Doe. All rights reserved.
-        </p>
-      </footer>
     </>
   );
 }
