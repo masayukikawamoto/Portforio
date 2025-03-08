@@ -32,7 +32,7 @@ export default function RootLayout({
           <Navigation />
           <main className="">{children}</main>
 
-          <footer className="flex items-center text-center h-12 z-50 bg-transparent">
+          <footer className="flex items-center text-center h-12 z-50 bg-transparent mt-auto mb-0">
             <div className="text-xs sm:text-sm h-12 text-gray-600">
               &copy; {new Date().getFullYear()} MASA
             </div>
