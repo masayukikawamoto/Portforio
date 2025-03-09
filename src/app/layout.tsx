@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "../styles/globals.css";
-import Navigation from "./components/Navigation";
+import Navigation from "../components/Navigation";
 import Head from "next/head";
 
 const openSans = Open_Sans({
@@ -28,16 +28,14 @@ export default function RootLayout({
       </Head>
 
       <body className={openSans.className}>
-        <div className="">
-          <Navigation />
-          <main className="">{children}</main>
+        <Navigation />
+        <main>{children}</main>
 
-          <footer className="flex items-center text-center h-12 z-50 bg-transparent mt-auto mb-0">
-            <div className="text-xs sm:text-sm h-12 text-gray-600">
-              &copy; {new Date().getFullYear()} MASA
-            </div>
-          </footer>
-        </div>
+        <footer className="flex justify-end items-center text-center h-12 z-50 bg-transparent mt-auto mb-0">
+          <div className="text-xs sm:text-sm h-12 text-gray-600">
+            &copy; {new Date().getFullYear()} MASA
+          </div>
+        </footer>
       </body>
     </html>
   );
