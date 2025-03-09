@@ -1,5 +1,4 @@
 import "../../styles/globals.css";
-import "../../styles/type.css";
 import SelfIntroduction from "@/components/contents/SelfIntroduction";
 
 export default function Home() {
