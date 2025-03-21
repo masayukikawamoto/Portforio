@@ -53,12 +53,12 @@ export default function Navigation() {
           </div>
         </Link>
         <div className="flex flex-row justify-end text-[15px] gap-11 ml-auto mr-11 animate-fade-up animate-duration-1900 animate-ease-out">
-          <Link href={"/profile"} className="hover:text-cyan-200">
+          {/* <Link href={"/profile"} className="hover:text-cyan-200">
             profile
           </Link>
           <Link href={"/portfolio"} className="hover:text-cyan-200">
             portfolio
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </header>

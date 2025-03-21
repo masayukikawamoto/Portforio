@@ -4,7 +4,6 @@ import Apps from "../../components/contents/Apps";
 export default function Portfolio() {
   return (
     <>
-      {/* <div className=" text-amber-300"></div> */}
       <div className="relative inset-0 font-black text-6xl text-amber-400  animate-fade-up animate-duration-500 animate-ease-out">
         PORTFOLIO
       </div>
