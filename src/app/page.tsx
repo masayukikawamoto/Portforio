@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import "../styles/globals.css";
 import Portfolio from "./portfolio/page";
 
