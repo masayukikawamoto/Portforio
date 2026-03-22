@@ -11,7 +11,7 @@ export default function Navigation() {
               MASA
             </div>
             <div className="flex flex-row justify-between text-center items-center bg-white w-36 h-1 ml-1 px-1.5">
-              <div className="font-extralight text-[0.5rem] tracking-tighter text-gray-800">
+              {/* <div className="font-extralight text-[0.5rem] tracking-tighter text-gray-800">
                 Y
               </div>
               <div className="font-extralight text-[0.5rem] tracking-tighter text-gray-800">
@@ -22,7 +22,7 @@ export default function Navigation() {
               </div>
               <div className="font-extralight text-[0.5rem] tracking-tighter text-gray-800">
                 I
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex flex-row justify-between mt-0 w-[150px]">
@@ -52,14 +52,7 @@ export default function Navigation() {
             </div>
           </div>
         </Link>
-        <div className="flex flex-row justify-end text-[15px] gap-11 ml-auto mr-11 animate-fade-up animate-duration-1900 animate-ease-out">
-          {/* <Link href={"/profile"} className="hover:text-cyan-200">
-            profile
-          </Link>
-          <Link href={"/portfolio"} className="hover:text-cyan-200">
-            portfolio
-          </Link> */}
-        </div>
+        <div className="flex flex-row justify-end text-[15px] gap-11 ml-auto mr-11 animate-fade-up animate-duration-1900 animate-ease-out"></div>
       </nav>
     </header>
   );
